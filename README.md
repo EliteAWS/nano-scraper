@@ -55,7 +55,9 @@ function EmitFunctor(config, data, callback) {
 		"username": "AWS Feature Bot",
 		"channel": "#random"
 	},
+	// The unique key used on the objects to perform diffs on. Often a URL.
 	"key": "name",
+	// Must be defined for diffs to work at all. This is your "database".
 	"storage": {
 		"s3": {
 			"bucket": "scraper-storage",
