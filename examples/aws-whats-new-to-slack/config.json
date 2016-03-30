@@ -12,7 +12,7 @@
   "key": "name",
   "storage": {
     "s3": {
-      "bucket": "scraper-storage",
+      "bucket": "<Your S3 Bucket>",
       "key": "aws-whats-new.json"
     }
   }
