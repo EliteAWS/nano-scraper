@@ -1,0 +1,31 @@
+{
+  "name": "nano-scraper",
+  "version": "0.1.0",
+  "description": "Periodically scrape page(s) using AWS serverless infrastructure",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-templeton/nano-scraper.git"
+  },
+  "keywords": [
+    "AWS",
+    "serverless",
+    "page",
+    "scraper",
+    "scraping",
+    "cron",
+    "periodic"
+  ],
+  "author": "Andrew Templeton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrew-templeton/nano-scraper/issues"
+  },
+  "homepage": "https://github.com/andrew-templeton/nano-scraper#readme",
+  "dependencies": {
+    "jsdom-no-contextify": "^3.1.0"
+  }
+}

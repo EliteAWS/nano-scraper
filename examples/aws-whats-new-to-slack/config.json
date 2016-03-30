@@ -1,0 +1,19 @@
+{
+  "url": "https://aws.amazon.com/new/",
+  "schedule": "rate(10 minutes)",
+  "slack": {
+    "hook": {
+      "host": "hooks.slack.com",
+      "path": "<Your Slack Path>"
+    },
+    "username": "AWS Feature Bot",
+    "channel": "#random"
+  },
+  "key": "name",
+  "storage": {
+    "s3": {
+      "bucket": "scraper-storage",
+      "key": "aws-whats-new.json"
+    }
+  }
+}
